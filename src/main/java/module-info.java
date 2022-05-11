@@ -5,4 +5,6 @@ module uk.ac.cam.kl559.demo {
 
     opens uk.ac.cam.demo to javafx.fxml;
     exports uk.ac.cam.demo;
+    exports uk.ac.cam.demo.controllers;
+    opens uk.ac.cam.demo.controllers to javafx.fxml;
 }

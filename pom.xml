@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>uk.ac.cam.kl559.demo/uk.ac.cam.demo.HelloApplication</mainClass>
+                            <mainClass>uk.ac.cam.kl559.demo/uk.ac.cam.demo.CricketApp</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
