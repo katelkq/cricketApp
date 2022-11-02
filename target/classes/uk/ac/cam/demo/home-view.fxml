@@ -14,7 +14,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="844.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.cam.demo.controllers.HomeController">
    <ScrollPane hbarPolicy="NEVER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="390.0">
      <content>
@@ -65,7 +64,7 @@
                </ImageView>
             </graphic>
          </Button>
-         <Button fx:id="addButton" contentDisplay="GRAPHIC_ONLY" defaultButton="true" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#openNewWatch" prefHeight="74.0" prefWidth="130.0">
+         <Button fx:id="addButton" contentDisplay="GRAPHIC_ONLY" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#openNewWatch" prefHeight="74.0" prefWidth="130.0">
             <graphic>
                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                   <image>

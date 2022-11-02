@@ -39,7 +39,7 @@
                   </image>
                </ImageView>
             </graphic></Button>
-         <Button fx:id="addButton" contentDisplay="GRAPHIC_ONLY" defaultButton="true" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#openNewFav" prefHeight="74.0" prefWidth="130.0">
+         <Button fx:id="addButton" contentDisplay="GRAPHIC_ONLY" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#openNewFav" prefHeight="74.0" prefWidth="130.0">
             <graphic>
                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                   <image>
